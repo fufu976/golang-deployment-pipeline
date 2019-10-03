@@ -4,8 +4,7 @@ phases:
 
   install: 
     commands:
-      - go get github.com/golang/lint
-      - go install github.com/golang/lint
+      - go get -u golang.org/x/lint/golint
 
   pre_build: 
     commands:
