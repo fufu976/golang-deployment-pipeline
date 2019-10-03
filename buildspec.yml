@@ -4,7 +4,7 @@ phases:
 
   install: 
     commands:
-      - go get github.com/gorilla/mux
+      - go get github.com/golang/lint/tree/master/golint
 
   pre_build: 
     commands:
